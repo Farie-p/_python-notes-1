@@ -1,2 +1,2 @@
-# _python-notes-1
+# _python for beginners
 learning the basics of python
