@@ -1,9 +1,9 @@
-""" 1ST LESSON IN PYTHON
-VARIABLES,DATA TYPES, lists, list functions
-int, string, boolean (3 basic data types)
+"""1ST LESSON IN PYTHON
+VARIABLES, DATA TYPES, lists, list functions
+numbers, string, boolean (3 basic data types)
 u can create variable containers.
 can convert a number into a string
-
+"""
 
 ############    VARIABLES  ##########################
 #STRING, NUMBERS (all dif types of number), BOOLEAN
