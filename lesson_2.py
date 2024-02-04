@@ -13,7 +13,8 @@
   - a parameter is a piece of information that is parsed into a function (example) name and age below
   - say_Hi  is a function calling. see the code below
   - can parse in as many parameters as needed.
-  - the str in the function below, changes 
+  - the str in the function below, changes the data type from string to output a number
+  
   """
  
   def say_Hi(name, age):
@@ -46,7 +47,7 @@
 
 """
 ################## tuple #################################
-coordinates = (3, 6)
+coordinates = (x, y)
 print(coordinates[0])
 
 
@@ -58,13 +59,14 @@ def say_Hi(name, age):
 say_Hi('Mike', 16)
 say_Hi('Toby', 19)
 
-
+##################### return statement #########################
 def cube(num):
     return num * num * num
 
-
 result = cube(4)
 print(result)
+
+############# if else comparisons ####################################
 
 is_female = False
 is_short = False
@@ -95,20 +97,16 @@ print((6 + 9j).imag)
 print(1.8e308)
 
 ########################### DICTIONARIES ##################################
-monthConversions = {
-    'Jan': 'January',
-    'Feb': 'February',
-    'Mar': 'March',
-    'Apr': 'April',
-    'May': 'May',
-    'Jun': 'June',
-    'Jul': 'July',
-    'Aug': 'August',
-    'Sep': 'September',
-    'Oct': 'October',
-    'Nov': 'November',
-    'Dec': 'December'
+weekConversions = {
+    'Mon': 'Monday',
+    'Tue': 'Tuesday',
+    'Wed': 'Wednesday',
+    'Thur': 'Thursday',
+    'Fri': 'Friday',
+    'Sat': 'Saturday',
+    'Sun': 'Sunday'
+    
 }
-print(monthConversions['Sep'])
-print(monthConversions.get('Sep'))
-print(monthConversions.get('Ot', 'Not a valid Key'))
+print(weekConversions['Sun'])
+print(weekConversions.get('Wed'))
+print(weekConversions.get('Frid', 'Not a valid Key'))
