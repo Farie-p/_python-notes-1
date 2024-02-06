@@ -44,10 +44,12 @@ print(a * b)
 name = input("Enter your name: ")
 age = input('Enter your age: ')
 print('Hello, my name is ' + name + ' and I am ' + age + '.')
-
+print(f'Hello, my name is {name} and I am {age}.')
 #############   STRING FUNCTIONS ###########################################
 """
 - string functions include (uppercase, lowercase, replace
+- the user can use the curly braces to print out the input, 
+   but they should also include the f function for the output to come out as expected without an error
 - the user can 
             .. find the index of a letter in a string
             .. output a specific part of the string by using index values
